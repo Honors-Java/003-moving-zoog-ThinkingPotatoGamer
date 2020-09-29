@@ -6,7 +6,7 @@ void draw() {
 	// Draw a white background
   ellipseMode(CENTER);
   ellipse(mouseX, mouseY, 1, 1);
-  println(mouseX, mouseY);
+  //println(mouseX, mouseY);
 
   background(200);
   // Set CENTER mode
@@ -35,4 +35,8 @@ void draw() {
   //Draw Zoog's arms
   line(mouseX - 10, mouseY, mouseX - 15, mouseY + 20);
   line(mouseX + 10, mouseY, mouseX + 20, mouseY + 20);
+}
+
+void mousePressed(){
+  println("Take me to your leader!");
 }
